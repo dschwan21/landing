@@ -1,24 +1,24 @@
-Greenfield Project Starter
-Overview
+## Greenfield Project Starter
+
+## Overview
 This Greenfield Project Starter is a versatile, scalable Next.js template designed to jumpstart the development of a variety of web applications. Whether you're building a SaaS platform, a community forum, or any full-stack application, this starter kit provides the essential groundwork, focusing on authentication, basic architecture, and the flexibility to adapt to numerous ideas and requirements.
 
-Features
+## Features
 Next.js Architecture: Utilizes the latest features of Next.js for server-side rendering, static site generation, and API routes.
 Authentication: Integrated with NextAuth for seamless and secure user authentication.
 Database Integration: Ready to connect with databases like Supabase or PlanetScale, providing a foundation for data-driven applications.
 Flexible Structure: Organized file structure for easy scalability and maintenance.
-Getting Started
-Clone the Repository: Start by cloning this repository to your local machine.
 
+## Getting Started
 
-Running the Application: To start the development server, run:
+Clone to your local machine.
+First, run the development server:
 
-bash
-Copy code
+```bash
 npm run dev
-This will launch the application on http://localhost:3000.
+```
 
-How to Use
+## How to Use
 Authentication: The template is pre-configured with NextAuth. Add additional authentication providers as needed.
 Database Integration: Connect your choice of database by configuring the relevant environment variables and connection logic.
 Building New Features: Utilize the existing file structure to add new components, pages, and API routes.
@@ -31,13 +31,7 @@ Testing and Deployment: Implement testing strategies for reliability and deploy 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-```
 
 ## Deploy on Vercel
 
