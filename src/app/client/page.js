@@ -1,7 +1,9 @@
 'use client'
 // Remember you must use an AuthProvider for 
 // client components to useSession
+
 import { useSession } from 'next-auth/react'
+// this use session hook is only available on the client because it uses the react context api
 import { redirect } from 'next/navigation'
 import UserCard from '../components/UserCard'
 
